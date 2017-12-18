@@ -21,7 +21,7 @@ public class Sir extends Tip
 	
 	public boolean equals(Object o)
 	{
-		if(o instanceof Intreg)
+		if(o instanceof Sir)
 		{
 			Sir text = (Sir)o;
 			return sir.equals(text.sir);
